@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Сыймык | Frontend Developer</title>
+
+<link rel="stylesheet" href="style.css">
+
+<script>
+if(localStorage.getItem("theme")==="light"){
+document.documentElement.classList.add("light");
+}
+</script>
+
+</head>
+<body>
+
+<nav>
+
+<div class="logo">SYIMYK</div>
+
+<ul class="nav-links">
+<li><a href="#about">Обо мне</a></li>
+<li><a href="#journey">Путь</a></li>
+<li><a href="#skills">Навыки</a></li>
+<li><a href="#projects">Проекты</a></li>
+<li><a href="#contact">Контакты</a></li>
+</ul>
+
+<button id="themeToggle" class="theme-toggle">
+🌙
+</button>
+
+</nav>
+
+<header class="hero">
+
+<div class="hero-content">
+
+<span class="badge">
+Frontend Developer • Linux User
+</span>
+
+<h1>
+Привет, я <span>Сыймык</span>
+</h1>
+
+<p class="subtitle">
+Начинающий Frontend-разработчик.
+Изучаю современные веб-технологии,
+создаю проекты для портфолио и стремлюсь
+получить первую работу в IT.
+</p>
+
+<div class="hero-buttons">
+
+<button id="terminalBtn">
+whoami
+</button>
+
+<a href="#projects" class="secondary-btn">
+Смотреть проекты
+</a>
+
+</div>
+
+</div>
+
+</header>
+
+<section id="terminal" class="terminal hidden reveal">
+
+<pre>
+user: syimyk
+
+os: Linux Mint
+
+stack:
+HTML
+CSS
+JavaScript
+
+tools:
+Git
+GitHub
+VS Code
+
+learning:
+Tailwind CSS
+REST API
+
+goal:
+Junior Frontend Developer
+</pre>
+
+</section>
+
+<section id="about" class="reveal">
+
+<h2>Обо мне</h2>
+
+<p>
+Меня зовут Сыймык.
+Я начинающий Frontend-разработчик,
+который активно изучает веб-разработку
+и создаёт проекты для своего портфолио.
+</p>
+
+<p>
+Моё знакомство с программированием началось
+с HTML и CSS. Со временем я начал изучать
+JavaScript и современные подходы к созданию
+адаптивных интерфейсов.
+</p>
+
+<p>
+Мне нравится видеть результат своей работы
+сразу в браузере и постепенно улучшать свои
+проекты. Помимо веб-разработки интересуюсь
+Linux и инструментами для разработчиков.
+</p>
+
+</section>
+
+<section id="journey" class="reveal">
+
+<h2>Мой путь</h2>
+
+<div class="timeline">
+
+<div class="timeline-item">
+<h3>Начало</h3>
+<p>
+Изучение основ HTML и CSS.
+Первые страницы и простые макеты.
+</p>
+</div>
+
+<div class="timeline-item">
+<h3>JavaScript</h3>
+<p>
+Работа с DOM, событиями,
+условиями, циклами и функциями.
+</p>
+</div>
+
+<div class="timeline-item">
+<h3>Git и GitHub</h3>
+<p>
+Изучение контроля версий,
+создание репозиториев и публикация проектов.
+</p>
+</div>
+
+<div class="timeline-item">
+<h3>Сейчас</h3>
+<p>
+Углубляюсь во Frontend,
+создаю портфолио и новые проекты.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="skills" class="reveal">
+
+<h2>Навыки</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>HTML</h3>
+<p>Семантическая верстка страниц.</p>
+</div>
+
+<div class="card">
+<h3>CSS</h3>
+<p>Flexbox, Grid, адаптивность.</p>
+</div>
+
+<div class="card">
+<h3>JavaScript</h3>
+<p>Интерактивность и логика сайта.</p>
+</div>
+
+<div class="card">
+<h3>Git</h3>
+<p>Контроль версий проектов.</p>
+</div>
+
+<div class="card">
+<h3>GitHub</h3>
+<p>Хранение и публикация кода.</p>
+</div>
+
+<div class="card">
+<h3>Linux</h3>
+<p>Повседневная работа в Linux Mint.</p>
+</div>
+
+<div class="card">
+<h3>Responsive</h3>
+<p>Адаптация под мобильные устройства.</p>
+</div>
+
+<div class="card">
+<h3>REST API</h3>
+<p>Получение данных через API.</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="stats reveal">
+
+<h2>Статистика</h2>
+
+<div class="stats-grid">
+
+<div class="stat-card">
+<h3>10+</h3>
+<p>Учебных проектов</p>
+</div>
+
+<div class="stat-card">
+<h3>100+</h3>
+<p>Часов практики</p>
+</div>
+
+<div class="stat-card">
+<h3>1+</h3>
+<p>Год изучения</p>
+</div>
+
+<div class="stat-card">
+<h3>2026</h3>
+<p>Цель — первая работа</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="projects" class="reveal">
+
+<h2>Проекты</h2>
+
+<div class="projects-grid">
+
+<div class="project-card">
+<h3>Portfolio Website</h3>
+<p>
+Личное портфолио с темной и светлой темой.
+</p>
+<div class="tags">
+HTML • CSS • JS
+</div>
+</div>
+
+<div class="project-card">
+<h3>Weather App</h3>
+<p>
+Приложение для просмотра погоды через API.
+</p>
+<div class="tags">
+JavaScript • API
+</div>
+</div>
+
+<div class="project-card">
+<h3>Task Manager</h3>
+<p>
+Управление задачами через LocalStorage.
+</p>
+<div class="tags">
+JavaScript
+</div>
+</div>
+
+<div class="project-card">
+<h3>Landing Page</h3>
+<p>
+Современный адаптивный лендинг.
+</p>
+<div class="tags">
+HTML • CSS
+</div>
+</div>
+
+<div class="project-card">
+<h3>Calculator</h3>
+<p>
+Калькулятор на чистом JavaScript.
+</p>
+<div class="tags">
+JS
+</div>
+</div>
+
+<div class="project-card">
+<h3>Gallery</h3>
+<p>
+Фотогалерея с модальными окнами.
+</p>
+<div class="tags">
+HTML • CSS • JS
+</div>
+</div>
+
+</div>
+
+</section>
+
+<section id="goals" class="reveal">
+
+<h2>Цели на 2026</h2>
+
+<ul class="list">
+<li>Изучить React</li>
+<li>Освоить TypeScript</li>
+<li>Создать 5+ новых проектов</li>
+<li>Получить первую стажировку</li>
+<li>Развивать GitHub-портфолио</li>
+</ul>
+
+</section>
+
+<section id="contact" class="reveal">
+
+<h2>Контакты</h2>
+
+<p class="contact-text">
+Открыт для новых знакомств,
+совместных проектов и стажировок.
+</p>
+
+<div class="contact-links">
+<a href="#">GitHub</a>
+<a href="#">Telegram</a>
+<a href="#">Email</a>
+</div>
+
+</section>
+
+<footer>
+
+<p>
+© 2026 Сыймык • Frontend Developer
+</p>
+
+</footer>
+
+<script src="app.js"></script>
+
+</body>
+</html>
